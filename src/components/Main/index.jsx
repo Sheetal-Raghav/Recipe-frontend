@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom"
 import data from "../../data"
-import './stylemain.css'
+// import './stylemain.css'
 const Main = () => {
     const handleLogout = () => {
         localStorage.removeItem("token")
